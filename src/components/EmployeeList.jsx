@@ -1,11 +1,11 @@
-import EmployeeListItem from "./EmployeeListItem"
+import EmployeeListItem from "./EmployeeListItem.jsx"
 
 function EmployeeList() {
     return(
         <div style={{border: "2px solid red"}}>
-        <EmployeeListItem/>
-        <EmployeeListItem/>
-        <EmployeeListItem/>
+        <EmployeeListItem name="James King" />
+        <EmployeeListItem name="Julie Taylor"/>
+        <EmployeeListItem name="Eugene Lee"/>
         </div>
     )
 }

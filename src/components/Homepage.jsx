@@ -1,18 +1,21 @@
-import SearchBar from "./SearchBar";
-import Header from "./Header";
-import EmployeeList from "./EmployeeList";
 
-function HomePage() {
+import Header from './Header';
+import SearchBar from './SearchBar';
+import EmployeeList from './EmployeeList.jsx';
+
+
+
+
+function Homepage() {
     return(
-            <div style={{border: "1px solid yellow", padding: "5px"}}>
-        <Header/>
-        <SearchBar/>
-        <EmployeeList/>
+        <div style={{border: "3px solid rgb(255, 201, 39)", padding: "5px", width: "40%"}}>
+            <Header/>
+            <SearchBar/>
+            <EmployeeList/>
+
         </div>
     )
 }
 
-export default HomePage
+export default Homepage
 
-
-import {  } from "./lear";
