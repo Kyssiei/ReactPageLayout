@@ -1,19 +1,18 @@
-// import './App.css'
-// import EmployeeList from './components/EmployeeList'
-// import HomePage from './components/Homepage'
-// import SearchBar from './components/SearchBar'
+import Header from "./components/Header";
+import './App.css'
 
-// function App() {
+function App() {
 
-//   return (
-//     <div style={{border: "2px "}}>
-//      <HomePage/>
-//      {/* <SearchBar/>
-//      <EmployeeList/> */}
-//     </>
-//   )
-// }
+  return (
+    <div style={{border: "2px "}}>
+        <>
+            <Header/>
+            
+        </>
+    </div>
+  )
+}
 
-// export default App
+export default App
 
 
