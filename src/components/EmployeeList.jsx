@@ -1,5 +1,6 @@
 import EmployeeListItem from "./EmployeeListItem.jsx";
 import sampleImage from "../assets/heart-default-pfp.jpg";
+import heartEmoji from "../assets/heart-emoji-pfp.jpg"
 
 function EmployeeList() {
     return(
@@ -7,9 +8,9 @@ function EmployeeList() {
             <EmployeeListItem name="James King" title="President and CEO" img={sampleImage}></EmployeeListItem>
             {/* <EmployeeListItem><img src="" alt="" /></EmployeeListItem> */}
             <hr />
-            <EmployeeListItem name="Julie Taylor" title="VP of Marketing" img={sampleImage}></EmployeeListItem>
+            <EmployeeListItem name="Julie Taylor" title="VP of Marketing" img={heartEmoji}></EmployeeListItem>
             <hr />
-            <EmployeeListItem name="Eugene Lee" title="CFO"/>
+            <EmployeeListItem name="Eugene Lee" title="CFO" img={heartEmoji}></EmployeeListItem>
             <hr />
             <EmployeeListItem name="John Wiiliams" title="VP of Engineering"></EmployeeListItem>
             <hr />
@@ -17,6 +18,7 @@ function EmployeeList() {
             <hr />
             <EmployeeListItem name="Paul Jones" title="QA Manager"></EmployeeListItem>
             <hr />
+            <EmployeeListItem />
         
         </div>
     )
