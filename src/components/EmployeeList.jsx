@@ -1,11 +1,13 @@
-import EmployeeListItem from "./EmployeeListItem.jsx"
+import EmployeeListItem from "./EmployeeListItem.jsx";
+import sampleImage from "../assets/heart-default-pfp.jpg";
 
 function EmployeeList() {
     return(
-        <div style={{border: "2px solid red"}}>
-            <EmployeeListItem name="James King" title="President and CEO"></EmployeeListItem>
+        <div style={{border: "2px solid red", padding: "10px"}}>
+            <EmployeeListItem name="James King" title="President and CEO" img={sampleImage}></EmployeeListItem>
+            {/* <EmployeeListItem><img src="" alt="" /></EmployeeListItem> */}
             <hr />
-            <EmployeeListItem name="Julie Taylor" title="VP of Marketing"></EmployeeListItem>
+            <EmployeeListItem name="Julie Taylor" title="VP of Marketing" img={sampleImage}></EmployeeListItem>
             <hr />
             <EmployeeListItem name="Eugene Lee" title="CFO"/>
             <hr />
